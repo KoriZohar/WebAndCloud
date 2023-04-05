@@ -1,0 +1,552 @@
+/* ----------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section {
+    display: block;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.amiko_font {
+    font-family: 'Amiko';
+    font-style: normal;
+    color: black;
+}
+
+/* ~~~~ MIX page ~~~~ */
+/* ----------------------------------------------------- */
+.select_hover {
+    color: #F72828;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 123px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.02px;
+    background: #F2E9E9;
+}
+
+.ellipse {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: 34px;
+    left: -180px;
+    border-radius: 100%;
+    background-color: #F72828;
+}
+
+.menu {
+    position: relative;
+    width: 198px;
+    height: 33px;
+    top: 52px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 18px;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+/* ----------------------------------------------------- */
+#wrapper_mix {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+/* ----------------------------------------------------- */
+#main_layout {
+    position: relative;
+    width: 881px;
+    height: 624px;
+    top: 91px;
+}
+
+main>h1 {
+    display: block;
+    position: relative;
+    width: 234px;
+    height: 97px;
+    top: 176px;
+    left: 0px;
+    bottom: 351px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 96.05px;
+}
+
+main>h2 {
+    display: block;
+    position: absolute;
+    width: 374px;
+    height: 33px;
+    top: 263px;
+    bottom: 328px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32.02px;
+}
+
+/* the mix */
+#the_mix {
+    position: absolute;
+    width: 437px;
+    height: 624px;
+    left: 444px;
+    top: 0px;
+}
+
+.rectangle_1 {
+    position: relative;
+
+    width: 246px;
+    height: 352px;
+    left: 149px;
+    right: 42px;
+    top: 44px;
+    bottom: 149px;
+
+    background: #EBEF18;
+}
+
+.rectangle_1:hover {
+    background-image: url(../images/impala.JPG);
+}
+
+#mix_column_A {
+    position: absolute;
+    width: 55px;
+    height: 396px;
+    left: 382px;
+    top: 0px;
+}
+
+.rectangle_2 {
+    position: relative;
+
+    width: 28px;
+    height: 55px;
+    top: 0px;
+    margin-bottom: 11px;
+    float: right;
+
+    background: #EBEF18;
+}
+
+.rectangle_2:hover {
+    background-image: url(../images/giraffe.JPG);
+}
+
+.rectangle_3 {
+    height: 198px;
+}
+
+#mix_column_B {
+    position: absolute;
+    width: 134px;
+    height: 624px;
+    left: 0px;
+    top: 44px;
+}
+
+.rectangle_4 {
+    position: relative;
+
+    width: 75px;
+    height: 23px;
+    top: 0px;
+    margin-bottom: 8px;
+    float: left;
+
+    background: #EBEF18;
+}
+
+.rectangle_4:hover {
+    background-image: url(../images/zebra2.JPG);
+}
+
+.rectangle_5 {
+    position: relative;
+
+    width: 136px;
+    height: 46px;
+    margin-bottom: 11px;
+    float: left;
+
+    background: #EBEF18;
+}
+
+.rectangle_5:hover {
+    background-image: url(../images/zebra2.JPG);
+}
+
+.rectangle_6 {
+    height: 404px;
+}
+
+.rectangle_6:hover {
+    background-image: url(../images/zebra.JPG);
+}
+
+.rectangle_7 {
+    position: relative;
+    height: 23px;
+    width: 75px;
+    left: 0px;
+    margin-right: 50px;
+    margin-bottom: 7px;
+    float: left;
+
+    background: #EBEF18;
+}
+
+.rectangle_7:hover {
+    background-image: url(../images/zebra2.JPG);
+}
+
+.rectangle_8 {
+    height: 26px;
+    width: 25px;
+    margin-right: 7px;
+    float: left;
+
+    background: #EBEF18;
+}
+
+.rectangle_8:hover {
+    background-image: url(../images/zebra2.JPG);
+}
+
+#mix_block_C {
+    position: absolute;
+    width: 288px;
+    height: 212px;
+    left: 149px;
+    top: 412px;
+}
+
+.rectangle_9 {
+    position: relative;
+
+    width: 123px;
+    height: 212px;
+    margin-right: 14px;
+    float: left;
+
+    background: #EBEF18;
+}
+
+.rectangle_9:hover {
+    background-image: url(../images/elephant.JPG);
+}
+
+.rectangle_10 {
+    position: relative;
+
+    width: 55px;
+    height: 105px;
+    top: 0px;
+    margin-bottom: 7px;
+    float: left;
+
+    background: #EBEF18;
+}
+
+.rectangle_10:hover {
+    background-image: url(../images/zebra2.JPG);
+}
+
+.rectangle_11 {
+    float: right;
+}
+
+.rectangle_12 {
+    position: relative;
+
+    width: 110px;
+    height: 58px;
+    float: left;
+
+    background: #EBEF18;
+}
+
+.rectangle_12:hover {
+    background-image: url(../images/zebra2.JPG);
+}
+
+
+/* ----------------------------------------------------- */
+.footer_bar {
+    position: absolute;
+    width: 100%;
+    height: 41px;
+    top: 983px;
+
+    background-color: black;
+}
+
+/* ~~~~ STAIRS page ~~~~ */
+/* ----------------------------------------------------- */
+.ellipse_s {
+    left: -88px;
+}
+
+/* ----------------------------------------------------- */
+#wrapper_stairs {
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#stairs_sidebar {
+    display: flex;
+    position: absolute;
+    height: 1925px;
+    width: 169px;
+    float: right;
+    top: 123px;
+    right: 0px;
+    background: #EBEF18;
+}
+
+.squares {
+    position: absolute;
+    top: 119px;
+}
+
+.square_s1 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 119px;
+    margin-bottom: 48px;
+    margin-right: 89px;
+    float: left;
+    background-color: black;
+}
+
+.square_s2 {
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 289px;
+    background-color: white;
+}
+
+.link_letter {
+    position: absolute;
+    width: 81px;
+    height: 405px;
+    left: 44px;
+    top: 1240px;
+    font-size: 96px;
+}
+
+section>a {
+    display: block;
+}
+
+/* the stairs */
+#content_area {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    margin-top: 119px;
+}
+
+#the_stairs {
+    width: 969px;
+    height: 467px;
+    margin-left: 151px;
+    margin: 0px;
+}
+
+.step_1 {
+    position: relative;
+    width: 457px;
+    height: 299px;
+    margin-bottom: 70px;
+    float: left;
+    background-color: #C4C4C4;
+}
+
+.step_2 {
+    float: right;
+    top: 168px;
+}
+
+/* ----------------------------------------------------- */
+.fixed_footer {
+    position: fixed;
+    height: 41px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background: black;
+}
+
+/* ~~~~ Dynamic page - Desktop ~~~~ */
+/* ----------------------------------------------------- */
+.ellipse_d {
+    position: relative;
+    left: 100px;
+    margin: 0px;
+    top: 105px;
+}
+
+/* ----------------------------------------------------- */
+.wrapper_dynamic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 100%;
+    height: 995px;
+}
+
+#menu_area {
+    display: flex;
+    position: absolute;
+    margin: 0px;
+    width: 372px;
+    height: 995px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.02px;
+    float: left;
+    background-color: #E5E5E5;
+}
+
+#d_menu.menu {
+    display: flex;
+    top: 123px;
+    left: 38px;
+}
+
+#side_column {
+    display: flex;
+    position: relative;
+    height: 995px;
+    width: 104px;
+    top: 0px;
+    float: right;
+    background-color: #1847EF4D;
+}
+
+/* ----------------------------------------------------- */
+.main_bottom {
+    display: flex;
+    height: 463px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    background-color: #EBEF18;
+}
+
+.dynamic_footer {
+    top: 1582px;
+    width: 100%;
+}
+
+/* ~~~~ Dynamic page - Mobile ~~~~ */
+/* ----------------------------------------------------- */
+@media only screen and (max-width: 850px) {
+    #d_layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper_dynamic {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #menu_area {
+        justify-content: center;
+        width: 100%;
+        height: 105px;
+    }
+
+    #d_menu.menu {
+        position: relative;
+        top: 45px;
+    }
+
+    .ellipse_d {
+        position: relative;
+        left: 100px;
+        top: 27px;
+    }
+
+    #side_column {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #d_layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper_dynamic {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #menu_area {
+        display: flex;
+        width: 100%;
+        height: 105px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+
+    #d_menu.menu {
+        position: relative;
+        top: 45px;
+    }
+
+    .ellipse_d {
+        position: relative;
+        left: 300px;
+        top: 0px;
+        margin-bottom: 60px;
+    }
+
+    #side_column {
+        display: none;
+    }
+}

@@ -1,0 +1,465 @@
+/* ----------------------------------------------------- */
+/* page's settings */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    position: relative;
+    width: 1200px;
+    height: 3000px;
+    background: #FFFFFF;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section {
+    display: block;
+}
+
+/* ----------------------------------------------------- */
+/* Area 1: Logo */
+header {
+    width: 100%;
+    height: 33px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.nunito_font {
+    font-family: 'Nunito';
+    font-style: normal;
+}
+
+#logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 41px;
+    left: 40px;
+
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+
+#logo_name {
+    position: absolute;
+    height: 33px;
+    margin-left: 38px;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+}
+
+/* ----------------------------------------------------- */
+/* Area 2: Cover */
+#cover_bg {
+    width: 1200px;
+    height: 555px;
+    top: 123px;
+    margin-bottom: 24px;
+
+    background-color: #F9BDBD;
+}
+
+#shape_bg {
+    position: absolute;
+    height: 388px;
+    width: 278px;
+    left: 40px;
+    top: 206px;
+
+    border-radius: 0px 120px 0px 120px;
+
+    background: #F7DEA6;
+}
+
+#my_picture {
+    position: absolute;
+    width: 342px;
+    height: 342px;
+    left: 78px;
+    top: 265px;
+}
+
+.cover_headline {
+    position: absolute;
+    width: 448px;
+    height: 98px;
+    margin-top: 83px;
+    margin-bottom: 16px;
+    left: 506px;
+
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49.1px;
+}
+
+.c_headline2 {
+    font-weight: normal;
+    font-size: 34px;
+}
+
+
+#cover_subHeadline {
+    position: absolute;
+    width: 448px;
+    height: 66px;
+    margin-top: 197px;
+    margin-left: 506px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+/* ----------------------------------------------------- */
+/* Area 3: About */
+main {
+    width: 100%;
+}
+
+.rubik_font {
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+h1.rubik_font {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+p.rubik_font {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.13px;
+}
+
+ul.rubik_font {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28.13px;
+}
+
+#about {
+    position: absolute;
+    width: 741px;
+    height: 458px;
+    left: 40px;
+    top: 702px;
+}
+
+#p_about {
+    width: 741px;
+    height: 394px;
+    top: 766px;
+    margin-top: 24px;
+}
+
+/* ----------------------------------------------------- */
+/* Area 4: exrecises */
+#exercises {
+    position: absolute;
+    width: 1096px;
+    height: 328px;
+    left: 40px;
+    top: 1243px;
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    height: 264px;
+    margin-top: 24px;
+    margin-right: 24px;
+    border-radius: 30px;
+}
+
+.view_button {
+    position: absolute;
+    height: 40px;
+    width: 119.58040618896484px;
+    margin-left: 16.84px;
+    top: 184px;
+    border-radius: 30px;
+}
+
+.picture_mask {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-left: 24px;
+    margin-top: 24px;
+    border-radius: 100px;
+}
+
+.title {
+    font-family: 'Rubik';
+    font-style: normal;
+
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    top: 128px;
+    margin-left: 24px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    height: 40px;
+    left: 24px;
+    right: 56px;
+    top: 184px;
+    border-radius: 25px;
+
+    background: #FFFFFF;
+}
+
+.view_word {
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    left: 16.84px;
+    right: 15.16px;
+    top: 8px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+
+    align-items: center;
+    text-align: center;
+}
+
+.h_view:hover {
+    background-color: #000000;
+}
+
+/* exercises.ex1 */
+#ex1 {
+    margin-left: 0px;
+    background: #FDEDE5;
+}
+
+#expicture_1 {
+    background-image: url(../images/ex1_picture.jpg);
+}
+
+#exword_1:hover {
+    color: #FDEDE5;
+}
+
+/* exercises.ex2 */
+#ex2 {
+    margin-left: 224px;
+    background: #EBF1FF;
+}
+
+#expicture_2 {
+    background-image: url(../images/ex2_picture.jpg);
+}
+
+#exword_2:hover {
+    color: #EBF1FF;
+}
+
+/* exercises.ex3 */
+#ex3 {
+    margin-left: 448px;
+    background: #EBFFEC;
+}
+
+#expicture_3 {
+    background-image: url(../images/ex3_picture.jpg);
+}
+
+#exword_3:hover {
+    color: #EBFFEC;
+}
+
+/* exercises.ex4 */
+#ex4 {
+    margin-left: 672px;
+    background: #FFEBFC;
+}
+
+#expicture_4 {
+    background-image: url(../images/ex4_picture.jpg);
+}
+
+#exword_4:hover {
+    color: #FFEBFC;
+}
+
+/* exercises.ex5 */
+#ex5 {
+    margin-left: 896px;
+    background: #FFFEEB;
+}
+
+#expicture_5 {
+    background-image: url(../images/ex5_picture.jpg);
+}
+
+#exword_5:hover {
+    color: #FFFEEB;
+}
+
+/* ----------------------------------------------------- */
+/* Area 5: Programming Languages */
+#prog_languages {
+    position: absolute;
+    width: 364px;
+    height: 205px;
+    left: 40px;
+    top: 1611px;
+}
+
+#prog_list {
+    position: absolute;
+    left: 40px;
+    margin-top: 24px;
+}
+
+/* ----------------------------------------------------- */
+/* Area 6: Your Choice */
+#your_choice {
+    position: absolute;
+    width: 1120px;
+    height: 572px;
+    left: 40px;
+    top: 1856px;
+    margin-bottom: 271px;
+}
+
+#choice_bg {
+    width: 1120px;
+    height: 508px;
+    margin-top: 24px;
+    background-color: #F9BDBD;
+}
+
+.yoga {
+    margin-left: 24px;
+    background: seashell;
+}
+
+.yoga_pic {
+    background-image: url(../images/yoga_pic.jpg);
+    background-repeat: no-repeat;
+}
+
+div.picture_mask {
+    margin-left: 672px;
+    background: seashell;
+    height: 200px;
+    width: 200px;
+
+    background-image: url(../images/elephant.png);
+    background-repeat: no-repeat;
+}
+
+span.picture_mask {
+    margin-left: 448px;
+    background: seashell;
+    height: 200px;
+    width: 200px;
+
+    background-image: url(../images/zebra.png);
+    background-repeat: no-repeat;
+}
+
+.c_picture {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 240px;
+    border-radius: 100px;
+    margin-left: 672px;
+
+    background-image: url(../images/impala.png);
+    background-repeat: no-repeat;
+}
+
+.c_photography {
+    margin-top: 230px;
+
+    color: white;
+    font-size: 25px;
+}
+
+/* ----------------------------------------------------- */
+/* footer */
+footer {
+    position: absolute;
+    width: 100%;
+    height: 301px;
+    top: 2699px;
+    background-image: url(../images/pexels-pixabay-509922.jpg);
+}
+
+.copyrights {
+    position: absolute;
+    height: 17.65px;
+    margin-left: 40px;
+    margin-top: 232px;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8D8D8D;
+}
+
+a.nunito_font {
+    position: absolute;
+    height: 19px;
+    margin-left: 40px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#follow_us {
+    position: absolute;
+    height: 25px;
+    margin-left: 40px;
+    margin-top: 32px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.link_foot {
+    color: #8D8D8D;
+}
+
+#f_link1 {
+    margin-top: 73px;
+}
+
+#f_link2 {
+    margin-top: 108px;
+}
+
+#f_link3 {
+    margin-top: 143px;
+}
