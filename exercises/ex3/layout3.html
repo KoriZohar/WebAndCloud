@@ -7,13 +7,17 @@
 		<link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
+        <script src="js/scripts.js"></script> 
+
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Amiko&display=swap" rel="stylesheet">
 	</head>
 	<body>
         <div id="d_layout">
-            <header></header>
+            <header>
+                <section id="add_box"></section>
+            </header>
             <div class="wrapper_dynamic">
                 <nav id="menu_area" class="amiko_font">
                     <section id="d_menu" class="menu">
@@ -25,13 +29,14 @@
                     </section>
                     <div class="ellipse ellipse_d"></div>
                 </nav>
-                <main></main>
+                <main id="boxes_area"></main>
                 <div id="side_column"></div>
             </div>
             <footer>
                 <div class="main_bottom"></div>
                 <div class="footer_bar dynamic_footer"></div>
             </footer>
-    </div>
+        </div>
+        <script>startGame()</script>
     </body>
 </html>
