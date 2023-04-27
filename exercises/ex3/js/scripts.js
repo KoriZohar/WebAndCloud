@@ -6,20 +6,6 @@ var selectedCard = undefined
 var selectedLetter = undefined
 var chosenLetter = undefined
 
-function startGame() {
-    let objButton = document.createElement("article")
-    let gButton = new box()
-
-    objButton.style.backgroundColor = "black"
-    objButton.style.position = "relative"
-    objButton.style.width = gButton.getWidth()+"px"
-    objButton.style.height = gButton.getHeight()+"px"
-    
-    document.getElementById("add_box").appendChild(objButton)
-
-    objButton.onclick = function () { initialize() }
-}
-
 class box {
     constructor() {
         this.width = 80;
@@ -39,6 +25,21 @@ class box {
     setHeight(value) {
         this.height = value;
     }       
+}
+
+function startGame() {
+    let gButton = new box()
+    let objButton = document.createElement("article")
+
+    objButton.style.backgroundColor = "black"
+    objButton.style.position = "relative"
+
+    objButton.style.width = gButton.getWidth()+"px"
+    objButton.style.height = gButton.getHeight()+"px"
+    
+    document.getElementById("add_box").appendChild(objButton)
+
+    objButton.onclick = function () { initialize() }
 }
 
 function initialize() {
@@ -102,17 +103,13 @@ function initialize() {
                     selectedLetter.style.visibility = "hidden"
                     selectedCard = undefined
                     return
-                },600)
+                },500)
             }
         }
     }
     else {
         window.alert("Max boxes were created!")
     }
-}
-
-function createBoxes() {
-    document.getElementById("add_box").style.visibility = initialize()
 }
 
 function genRandLetter() {
