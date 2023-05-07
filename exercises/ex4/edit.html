@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms - Edit</title>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css/design.css"/>
+        <link rel="icon" href="favicon.ico">
+        
+        <script src="js/script.js"></script> 
+    </head>
+    <body id="edit">
+        
+        <form action="server.php" method="GET">
+            <h4>Frosting Flavor:</h4>
+            <label><input type="radio" name="flavor" value="vanilla" class="form-check-input" required> Vanilla</label><br>
+            <label><input type="radio" name="flavor" value="chocolate" class="form-check-input" required> Chocolate</label><br>
+            <label><input type="radio" name="flavor" value="strawberry" class="form-check-input" required> Strawberry</label><br>
+            <br>
+            <h4>Wrap Color:</h4>
+            <label><input type="radio" name="wrap" value="pink" class="form-check-input" required>Pink</label>
+            <label><input type="radio" name="wrap" value="blue" class="form-check-input" required>Blue</label>
+            <br><br>
+            <h4>Cherry On Top:</h4>
+            <label><input type="radio" name="cherry" value="yes" class="form-check-input" required>Yes</label>
+            <label><input type="radio" name="cherry" value="no" class="form-check-input" required>No</label>
+            <br><br>
+            <input type="submit" value="Order my Cupcake!" class="btn btn-primary">
+        </form>
+        
+        <div class="box-canvas"></div>
+
+    <script>createcupcake()</script>
+    </body>
+</html>
