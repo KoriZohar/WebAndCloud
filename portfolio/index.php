@@ -288,7 +288,7 @@
                   <h3>Social Profiles</h3>
                   <div class="social-links">
                     <a href="https://www.instagram.com/korizohar/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-                    <a href="www.linkedin.com/in/kori-zohar" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/kori-zohar" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -320,7 +320,7 @@
       <h3>Kori Zohar</h3>
       <div class="social-links">
         <a href="https://www.instagram.com/korizohar/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-        <a href="www.linkedin.com/in/kori-zohar" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/kori-zohar" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
       </div>
       <a href="https://www.shenkar.ac.il/he/departments/engineering-software-department" target="_blank"><p>תואר ראשון בהנדסת תוכנה בשנקר</p></a>
       <div class="copyright">
